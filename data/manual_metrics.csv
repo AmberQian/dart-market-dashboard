@@ -1,0 +1,5 @@
+metric,value,as_of,source,note
+ai_capex_index,72,2026-06-06,manual,"0-100 score. Update after MSFT/GOOGL/META/AMZN earnings using capex growth and capex/revenue trend."
+ai_capex_yoy_pct,34,2026-06-06,manual,"Approximate blended hyperscaler capex year-over-year growth."
+enterprise_ai_penetration_pct,5,2026-06-06,manual,"Directional assumption for article narrative; replace with a sourced estimate when publishing."
+
