@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T04:15:45+00:00",
+  "updated_at": "2026-06-06T12:46:13+00:00",
   "quadrant": {
     "name": "Quadrant I: High Rate + Strong Narrative",
     "interpretation": "Bubble carnival conditions."
@@ -44,7 +44,7 @@
     {
       "key": "Market",
       "label": "Risk Asset Tape",
-      "value": "Nasdaq 21,000 / BTC $60,165",
+      "value": "Nasdaq 21,000 / BTC $60,792",
       "score": 43.78132832080201,
       "direction": "Context only",
       "source": "FRED NASDAQCOM fallback 2026-06-06; CoinGecko BTC 2026-06-06",
