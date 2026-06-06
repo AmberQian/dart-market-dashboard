@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-06-06T03:15:55+00:00",
+  "quadrant": {
+    "name": "Quadrant I: High Rate + Strong Narrative",
+    "interpretation": "Bubble carnival conditions."
+  },
+  "metrics": [
+    {
+      "key": "D",
+      "label": "Discount Rate",
+      "value": "10Y 4.50% / Real 10Y 2.10%",
+      "score": 56.90476190476191,
+      "direction": "Higher score = higher valuation pressure",
+      "source": "FRED DGS10 fallback 2026-06-06; DFII10 fallback 2026-06-06",
+      "note": "DCF denominator pressure."
+    },
+    {
+      "key": "A",
+      "label": "AI Capex Cycle",
+      "value": "Index 72/100 / YoY 34%",
+      "score": 32.09090909090909,
+      "direction": "Higher score = weaker capex confirmation",
+      "source": "Manual metrics as of 2026-06-06",
+      "note": "0-100 score. Update after MSFT/GOOGL/META/AMZN earnings using capex growth and capex/revenue trend."
+    },
+    {
+      "key": "R",
+      "label": "Risk Premium",
+      "value": "VIX 18.00 / BAA10Y 2.20%",
+      "score": 30.65789473684211,
+      "direction": "Higher score = lower market risk appetite",
+      "source": "FRED VIXCLS fallback 2026-06-06; BAA10Y fallback 2026-06-06",
+      "note": "Market fear plus credit spread stress."
+    },
+    {
+      "key": "T",
+      "label": "Tech Narrative Half-Life",
+      "value": "30d AI media mentions 25,000",
+      "score": 64.5847063924728,
+      "direction": "Higher score = crowded or aging narrative",
+      "source": "GDELT 2.0 fallback 2026-06-06",
+      "note": "Proxy for narrative saturation, not a truth oracle."
+    },
+    {
+      "key": "Market",
+      "label": "Risk Asset Tape",
+      "value": "Nasdaq 21,000 / BTC $60,854",
+      "score": 43.78132832080201,
+      "direction": "Context only",
+      "source": "FRED NASDAQCOM fallback 2026-06-06; CoinGecko BTC 2026-06-06",
+      "note": "Cross-market context for the table."
+    }
+  ]
+}
