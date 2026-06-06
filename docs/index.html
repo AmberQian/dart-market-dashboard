@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DART Market Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #60707a;
+      --line: #d8e0e5;
+      --bg: #f7f9fa;
+      --accent: #0f766e;
+      --warn: #b45309;
+    }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 40px 20px 56px;
+    }
+    header {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 5vw, 58px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+    .quadrant {
+      font-size: 18px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .sub {
+      color: var(--muted);
+      max-width: 760px;
+      line-height: 1.6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .tile {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      min-height: 132px;
+    }
+    .axis {
+      color: var(--muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    .score {
+      font-size: 34px;
+      font-weight: 800;
+      margin: 10px 0 4px;
+    }
+    .status {
+      color: var(--warn);
+      font-weight: 700;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+    tr:last-child td {
+      border-bottom: 0;
+    }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      table { display: block; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>DART Market Dashboard</h1>
+      <div class="quadrant">Quadrant I: High Rate + Strong Narrative</div>
+      <div class="sub">Bubble carnival conditions. Updated 2026-06-06 03:15 UTC.</div>
+    </header>
+    <section class="grid">
+      <div class="tile"><div class="axis">D · Discount Rate</div><div class="score">57</div><div class="status">Watch</div><p>10Y 4.50% / Real 10Y 2.10%</p></div><div class="tile"><div class="axis">A · AI Capex Cycle</div><div class="score">32</div><div class="status">Calm</div><p>Index 72/100 / YoY 34%</p></div><div class="tile"><div class="axis">R · Risk Premium</div><div class="score">31</div><div class="status">Calm</div><p>VIX 18.00 / BAA10Y 2.20%</p></div><div class="tile"><div class="axis">T · Tech Narrative Half-Life</div><div class="score">65</div><div class="status">Watch</div><p>30d AI media mentions 25,000</p></div>
+    </section>
+    <table>
+      <thead><tr><th>Axis</th><th>Metric</th><th>Latest</th><th>Score</th><th>Status</th><th>Source</th></tr></thead>
+      <tbody><tr><td>D</td><td>Discount Rate</td><td>10Y 4.50% / Real 10Y 2.10%</td><td>57</td><td>Watch</td><td>FRED DGS10 fallback 2026-06-06; DFII10 fallback 2026-06-06</td></tr>
+<tr><td>A</td><td>AI Capex Cycle</td><td>Index 72/100 / YoY 34%</td><td>32</td><td>Calm</td><td>Manual metrics as of 2026-06-06</td></tr>
+<tr><td>R</td><td>Risk Premium</td><td>VIX 18.00 / BAA10Y 2.20%</td><td>31</td><td>Calm</td><td>FRED VIXCLS fallback 2026-06-06; BAA10Y fallback 2026-06-06</td></tr>
+<tr><td>T</td><td>Tech Narrative Half-Life</td><td>30d AI media mentions 25,000</td><td>65</td><td>Watch</td><td>GDELT 2.0 fallback 2026-06-06</td></tr>
+<tr><td>Market</td><td>Risk Asset Tape</td><td>Nasdaq 21,000 / BTC $60,854</td><td>44</td><td>Watch</td><td>FRED NASDAQCOM fallback 2026-06-06; CoinGecko BTC 2026-06-06</td></tr></tbody>
+    </table>
+  </main>
+</body>
+</html>
