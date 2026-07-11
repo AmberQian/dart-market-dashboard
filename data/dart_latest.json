@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T13:20:42+00:00",
+  "updated_at": "2026-07-11T12:07:57+00:00",
   "quadrant": {
     "name": "Quadrant I: High Rate + Strong Narrative",
     "interpretation": "Bubble carnival conditions."
@@ -11,7 +11,7 @@
       "value": "10Y 4.50% / Real 10Y 2.10%",
       "score": 56.90476190476191,
       "direction": "Higher score = higher valuation pressure",
-      "source": "FRED DGS10 fallback 2026-07-10; DFII10 fallback 2026-07-10",
+      "source": "FRED DGS10 fallback 2026-07-11; DFII10 fallback 2026-07-11",
       "note": "DCF denominator pressure."
     },
     {
@@ -29,7 +29,7 @@
       "value": "VIX 18.00 / BAA10Y 2.20%",
       "score": 30.65789473684211,
       "direction": "Higher score = lower market risk appetite",
-      "source": "FRED VIXCLS fallback 2026-07-10; BAA10Y fallback 2026-07-10",
+      "source": "FRED VIXCLS fallback 2026-07-11; BAA10Y fallback 2026-07-11",
       "note": "Market fear plus credit spread stress."
     },
     {
@@ -38,16 +38,16 @@
       "value": "30d AI media mentions 25,000",
       "score": 64.5847063924728,
       "direction": "Higher score = crowded or aging narrative",
-      "source": "GDELT 2.0 fallback 2026-07-10",
+      "source": "GDELT 2.0 fallback 2026-07-11",
       "note": "Proxy for narrative saturation, not a truth oracle."
     },
     {
       "key": "Market",
       "label": "Risk Asset Tape",
-      "value": "Nasdaq 21,000 / BTC $64,164",
+      "value": "Nasdaq 21,000 / BTC $64,149",
       "score": 43.78132832080201,
       "direction": "Context only",
-      "source": "FRED NASDAQCOM fallback 2026-07-10; CoinGecko BTC 2026-07-10",
+      "source": "FRED NASDAQCOM fallback 2026-07-11; CoinGecko BTC 2026-07-11",
       "note": "Cross-market context for the table."
     }
   ]
