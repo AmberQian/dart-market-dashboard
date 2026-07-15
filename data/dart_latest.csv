@@ -1,6 +1,6 @@
 key,label,value,score,direction,source,note
-D,Discount Rate,10Y 4.50% / Real 10Y 2.10%,56.90476190476191,Higher score = higher valuation pressure,FRED DGS10 fallback 2026-07-14; DFII10 fallback 2026-07-14,DCF denominator pressure.
+D,Discount Rate,10Y 4.50% / Real 10Y 2.10%,56.90476190476191,Higher score = higher valuation pressure,FRED DGS10 fallback 2026-07-15; DFII10 fallback 2026-07-15,DCF denominator pressure.
 A,AI Capex Cycle,Index 72/100 / YoY 34%,32.09090909090909,Higher score = weaker capex confirmation,Manual metrics as of 2026-06-06,0-100 score. Update after MSFT/GOOGL/META/AMZN earnings using capex growth and capex/revenue trend.
-R,Risk Premium,VIX 18.00 / BAA10Y 2.20%,30.65789473684211,Higher score = lower market risk appetite,FRED VIXCLS fallback 2026-07-14; BAA10Y fallback 2026-07-14,Market fear plus credit spread stress.
-T,Tech Narrative Half-Life,"30d AI media mentions 25,000",64.5847063924728,Higher score = crowded or aging narrative,GDELT 2.0 fallback 2026-07-14,"Proxy for narrative saturation, not a truth oracle."
-Market,Risk Asset Tape,"Nasdaq 21,000 / BTC $63,397",43.78132832080201,Context only,FRED NASDAQCOM fallback 2026-07-14; CoinGecko BTC 2026-07-14,Cross-market context for the table.
+R,Risk Premium,VIX 18.00 / BAA10Y 2.20%,30.65789473684211,Higher score = lower market risk appetite,FRED VIXCLS fallback 2026-07-15; BAA10Y fallback 2026-07-15,Market fear plus credit spread stress.
+T,Tech Narrative Half-Life,"30d AI media mentions 25,000",64.5847063924728,Higher score = crowded or aging narrative,GDELT 2.0 fallback 2026-07-15,"Proxy for narrative saturation, not a truth oracle."
+Market,Risk Asset Tape,"Nasdaq 21,000 / BTC $64,787",43.78132832080201,Context only,FRED NASDAQCOM fallback 2026-07-15; CoinGecko BTC 2026-07-15,Cross-market context for the table.
