@@ -14,11 +14,11 @@ DART 不是预测器，而是一个坐标系：
 <!-- DART_TABLE_START -->
 | Axis | Metric | Latest | Score | Status | Source |
 |---|---|---:|---:|---|---|
-| D | Discount Rate | 10Y 4.50% / Real 10Y 2.10% | 57/100 | Watch | FRED DGS10 fallback 2026-10-02; DFII10 fallback 2026-10-02 |
+| D | Discount Rate | 10Y 4.50% / Real 10Y 2.10% | 57/100 | Watch | FRED DGS10 fallback 2026-10-03; DFII10 fallback 2026-10-03 |
 | A | AI Capex Cycle | Index 72/100 / YoY 34% | 32/100 | Calm | Manual metrics as of 2026-06-06 |
-| R | Risk Premium | VIX 18.00 / BAA10Y 2.20% | 31/100 | Calm | FRED VIXCLS fallback 2026-10-02; BAA10Y fallback 2026-10-02 |
-| T | Tech Narrative Half-Life | 30d AI media mentions 25,000 | 65/100 | Watch | GDELT 2.0 fallback 2026-10-02 |
-| Market | Risk Asset Tape | Nasdaq 21,000 / BTC $85,132 | 44/100 | Watch | FRED NASDAQCOM fallback 2026-10-02; CoinGecko BTC 2026-10-02 |
+| R | Risk Premium | VIX 18.00 / BAA10Y 2.20% | 31/100 | Calm | FRED VIXCLS fallback 2026-10-03; BAA10Y fallback 2026-10-03 |
+| T | Tech Narrative Half-Life | 30d AI media mentions 25,000 | 65/100 | Watch | GDELT 2.0 fallback 2026-10-03 |
+| Market | Risk Asset Tape | Nasdaq 21,000 / BTC $84,787 | 44/100 | Watch | FRED NASDAQCOM fallback 2026-10-03; CoinGecko BTC 2026-10-03 |
 <!-- DART_TABLE_END -->
 
 ## Quadrant
@@ -26,7 +26,7 @@ DART 不是预测器，而是一个坐标系：
 <!-- DART_QUADRANT_START -->
 **Quadrant I: High Rate + Strong Narrative**: Bubble carnival conditions.
 
-Updated: 2026-10-02T16:40:39+00:00
+Updated: 2026-10-03T15:09:50+00:00
 <!-- DART_QUADRANT_END -->
 
 ## How It Updates
